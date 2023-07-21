@@ -81,7 +81,6 @@ a:active{}
 .main__list{
   text-align: center;
   border: solid grey;
-  padding:0 25%;
 }
 .main__subtitulo{
   position: absolute;
@@ -106,10 +105,6 @@ a:active{}
 .hexagono-in2--visible{ 
   visibility: visible; 
   background-color: var(--grey);
-  line-height: 400px;
-  font-family: 'Belanosima', sans-serif;
-  font-weight: 700;
-  font-size:40px;
   color: black;
 }
 /* ID'S */
