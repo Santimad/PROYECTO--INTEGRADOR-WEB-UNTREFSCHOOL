@@ -1,0 +1,126 @@
+:root{
+  --orange: #FC7300;
+  --green: #1F8A70;
+  --blue: #00425A;
+  --black: #181823;
+  --grey: #EFF5F5;
+}
+*{ 
+  box-sizing: border-box; 
+  padding:0; margin:0;
+}
+ul{ list-style-type: none; }
+a{}
+a:link{}
+a:visited{}
+a:hover,a:focus{}
+a:active{}
+
+/* CLASES */
+.container{
+  margin:0 1rem;
+  display: relative;
+}
+.clearfix{ clear:both; }
+.nav{ 
+  border-bottom: solid var(--black);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+.nav__links{
+  border: solid var(--black);
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.nav__link{
+  border: solid var(--green);
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.nav__link--active{
+}
+.header{
+  position:relative;
+  height: 33.333vh;
+  border:solid var(--orange);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-align: center; 
+}
+.header__img{
+}
+.header__titulo{
+  position: absolute;
+  bottom: 50%;
+  left:0; right:0;
+  margin: 0 auto;
+  border: solid black;
+}
+.main{
+  background-color: var(--green);
+  font-family: 'Belanosima', sans-serif;
+  font-weight: 700;
+}
+.main__titulo{
+  padding-top:1rem;
+}
+.main__img{
+  border:1px solid lightgrey;
+  height: 196px; width:196px;
+  padding:1rem 0;
+  margin: 1rem 0;
+}
+.main__p{
+  font-family: 'Poppins', sans-serif;
+  font-weight:300;
+  text-align: justify;
+  width: 83.33%;
+  padding-bottom: 1rem;
+}
+.main__list{
+  text-align: center;
+  border: solid grey;
+  padding:0 25%;
+}
+.main__subtitulo{
+  position: absolute;
+  transform: translate(110%,15em);
+  font-family: 'Poppins', sans-serif;
+  font-weight:500;
+}
+.hexagono{
+  display: inline-flex;
+  visibility: hidden;
+  overflow: hidden;
+  border: solid blue;
+  width: 150px; height: 300px;
+  transform: rotate(120deg);
+}
+.hexagono-in1, .hexagono-in2{
+  display: block;
+  width: 100%; height:100%;
+  transform: rotate(-60deg);
+}
+.hexagono-in1--hidden{ overflow: hidden; }
+.hexagono-in2--visible{ 
+  visibility: visible; 
+  background-color: var(--grey);
+  line-height: 400px;
+  font-family: 'Belanosima', sans-serif;
+  font-weight: 700;
+  font-size:40px;
+  color: black;
+}
+/* ID'S */
+#porque_elegirnos{
+  background-color: var(--orange);
+}
+#propuesta_educativa{
+  overflow: hidden;
+}
+/* OTROS SELECTORES */
+[class$=--right]{
+  float:right;
+  clear:right;
+  }
