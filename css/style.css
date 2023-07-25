@@ -111,6 +111,7 @@ textarea{
   bottom: 50%;
   left:0; right:0;
   margin: 0 auto;
+  font-weight: 700;
 }
 .main{
   background-color: var(--green);
@@ -196,6 +197,7 @@ textarea{
 .noticias{
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  padding-bottom: 5rem;
   }
 .noticias__p{
     font-weight:300;

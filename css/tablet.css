@@ -1,0 +1,40 @@
+.header{
+  height: 25vh;
+}
+.main__titulo{
+  padding-bottom: 1rem;
+}
+.main__titulo--right{
+  clear: both;
+}
+.main__img--left{
+  float: left;
+  margin-right: 3rem;
+  border: solid var(--orange);
+}
+.main__img--right{
+  margin-left: 3rem;
+}
+
+.main__p--right{
+  float: none;
+}
+.main__p{
+  width: 100%;
+  margin-top: .8rem;
+  padding: 2rem .5rem;
+  border: solid var(--grey);
+}
+.main__p--left{
+  padding-right: 20%;
+}
+.main__p--right{
+  padding-left: 20%;
+}
+.main__img{
+  height: 256px;
+  width: 256px;
+}
+.form{ width: 60%;}
+.pie{
+}
