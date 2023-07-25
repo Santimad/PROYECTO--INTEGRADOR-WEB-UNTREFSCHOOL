@@ -1,0 +1,29 @@
+.header{
+height: 66.667vh;
+}
+.main__img--left{
+  float: left;
+  margin-right: 1rem;
+  border: solid var(--orange);
+}
+.main__img--right{
+  clear: right;
+  margin-left: 1rem;
+}
+
+.main__p--right{
+  float: none;
+}
+.main__p{
+  width: 100%;
+  padding: 2rem .5rem;
+  border: solid var(--grey);
+}
+.form{
+  width: 75%;
+}
+/*
+.main__hexagono{
+  display: inline-flex;
+  margin-left: 2.5rem;
+}*/

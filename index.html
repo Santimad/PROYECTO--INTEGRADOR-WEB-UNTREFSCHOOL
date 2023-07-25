@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title> Untref School </title>
+  <link rel="shortcut icon" href="img/icons/primaria.png" type="img/png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" media="only screen and (orientation: landscape)" href="css/landscape.css">
@@ -17,15 +19,25 @@
 <body>
  <nav class="nav">
   <ul class=nav__links>
-    <li class="nav__link"> Inicio </li>
-    <li class="nav__link"> ¿Quienes somos? </li>
-    <li class="nav__link"> ¿Porque elegirnos? </li>
-    <li class="nav__link"> Noticias </li>
-    <li class="nav__link"> Contacto </li>
+    <li class="nav__link"> 
+      <a href="index.html" target="_top" aria-current="page"> Inicio </a>
+    </li>
+    <li class="nav__link"> 
+      <a href="#quienes_somos">¿Quienes somos? </a>
+    </li>
+    <li class="nav__link"> 
+      <a href="#porque_elegirnos">¿Porque elegirnos? </a>
+    </li>
+    <li class="nav__link"> 
+      <a href="#noticias"> Noticias </a>
+    </li>
+    <li class="nav__link"> 
+      <a href="contacto.html" rel="next" target="_top">Contacto </a>
+    </li>
   </ul>
  </nav>
   <header class="header">
-    <img class="header__img" src="" alt=""/>
+    <img class="header__img" src="img/escuela.jpg" alt=""/>
     <h1 class=header__titulo> Untref School </h1>
   </header>
 <main class="main">
@@ -33,8 +45,8 @@
     <h2 class="main__titulo">
       ¿Quienes somos?
     </h2>
-    <div class="main__img">
-      <img src="" alt=""/>
+    <div class="main__img main__img--left">
+      <img src="img/profesor1.jpg" alt=""/>
     </div>
     <p class="main__p">
     Elit explicabo quia numquam nemo corrupti ipsum, perferendis? Laboriosam nisi perferendis
@@ -48,7 +60,7 @@
       ¿Por qué elegirnos?
     </h2>
     <div class="main__img main__img--right">
-      <img src="" alt="">
+      <img src="img/profesor2.jpg" alt="">
     </div>
     <p class="main__p main__p--right">
     Lorem quis adipisci beatae eligendi quidem Maiores vitae enim ratione alias sint. 
@@ -56,14 +68,36 @@
     temporibus ratione voluptatum Non consequatur numquam laborum eligendi impedit veritatis.
     </p>
   </section>
-  <section class="container clearfix" id="propuesta_educativa">
-    <h2 class="main__titulo"> Propuesta educativa</h2>
-    <div class="main__hexagono">
-      <div class="hexagono">
-	<a class="hexagono-in1 hexagono-in1--hidden" href=""><span class="hexagono-in2 hexagono-in2--visible"></span></a>
+  <section class="container-fluid clearfix" id="propuesta_educativa">
+    <h2 class="main__titulo main__titulo--grey"> Propuesta educativa</h2>
+
+    <div class="row">
+      <div class="col-4">
+	<div class="main__hexagono">
+	  <div class="hexagono">
+	    <a class="hexagono-in1 hexagono-in1--hidden" href=""><span class="hexagono__img-1 hexagono-in2 hexagono-in2--visible"></span></a>
+	  </div>
+	  <h3 class="hexagono__titulo hexagono__titulo--grey"> PROPUESTA 1 </h3>
+	</div>
       </div>
-      <h3 class="hexagono__titulo"> PROPUESTA 1 </h3>
+      <div class="col-4">
+	<div class="main__hexagono">
+	  <div class="hexagono">
+	    <a class="hexagono-in1 hexagono-in1--hidden" href=""><span class="hexagono__img-2 hexagono-in2 hexagono-in2--visible"></span></a>
+	  </div>
+	  <h3 class="hexagono__titulo hexagono__titulo--grey"> PROPUESTA 2 </h3>
+	</div>
+      </div>
+      <div class="col-4">
+	<div class="main__hexagono">
+	  <div class="hexagono">
+	    <a class="hexagono-in1 hexagono-in1--hidden" href=""><span class="hexagono__img-3 hexagono-in2 hexagono-in2--visible"></span></a>
+	  </div>
+	  <h3 class="hexagono__titulo hexagono__titulo--grey"> PROPUESTA 3 </h3>
+	</div>
+      </div>
     </div>
+
     <!--
       <li class="hexagono">
         <a class="hexagono-in1 hexagono-in1--hidden" href=""><span class="hexagono-in2 hexagono-in2--visible"></span></a>
@@ -78,7 +112,83 @@
       -->
   </section>
 </main>
- <article class=noticias></article>
- <footer class=pie></footer>
+ <article class=noticias id="noticias">
+  <div class="container">
+    <h2 class="noticias__titulo"> Últimas noticias </h2>
+    <div class="row">
+      <div class="col-6">
+	<h3 class="noticias__titulo"> Titulo 1</h3>
+	<p class="noticias__p">
+	  Elit porro suscipit quibusdam facere nostrum odio. Cum tenetur est illo ipsum soluta
+	  In eos repellat reprehenderit alias magnam. Qui veniam vero obcaecati optio commodi
+	  Est atque omnis dolorum perspiciatis nam? Placeat
+	</p>
+      </div>
+
+      <div class="col-6">
+	<h3 class="noticias__titulo">Titulo 2 </h3>
+	<p class="noticias__p"> 
+	  Lorem rerum suscipit sapiente distinctio eum animi Distinctio voluptate nostrum 
+	  saepe recusandae recusandae! Temporibus qui beatae nostrum reprehenderit fugit 
+	  vitae Nisi quae assumenda voluptatibus ratione recusandae. Optio suscipit quisquam 
+	  possimus deleniti sit
+	</p>
+      </div>
+    </div>
+  </div>
+ </article>
+ <footer class=pie>
+   <div class="row">
+     <div class="col-4">
+       <h2 class="pie__titulo">Redes Sociales</h2>
+       <ul class="rrss__list">
+         <li class="rrss__link">
+	   <a href="#0"> 
+	   <img class="rrss__img" src="img/icons/twitter.png" 
+	   alt="Logotipo de twitter: silueta de un pajarito de perfil color azul."/>
+	     Twitter</a>
+	 </li>
+         <li class="rrss__link">
+	   <a href="#0">
+	   <img class="rrss__img" src="img/icons/instagram.png" 
+	   alt="Logotipo de instagram: camara fotografica de colores.">
+	     Instagram</a>
+	 </li>
+         <li class="rrss__link">
+	   <a href="#0">
+	   <img class="rrss__img"src="img/icons/linkedin.png" 
+	   alt="Logotipo de linkedin: cuadrado azul con las letras L e I blancas.">
+	     Linkledin</a>
+	 </li>
+       </ul>
+     </div>
+     <div class="col-4">
+       <h2 class="pie__titulo">Instituto</h2>
+       <div class="pie__mapa">
+	 <a href="#0">
+	  <img width=156 height=156 src="img/mapa.png" alt="Mapa de google.">
+	 </a>	
+       </div>
+     </div>
+     <div class="col-4">
+       <h2 class="pie__titulo"> Contacto </h2>
+       <ul class="contacto__list">
+	 <li class="contacto__link"> 
+	   <h4>Correo electrónico:</h4>
+	   <a href="#0"> informaciones@untrefschool.com </a>
+	 </li>
+	 <li class="contacto__link"> 
+	   <h4>Teléfonos:</h4>
+	   <a href="#0">(+54) 011 - 355433245</a>
+	 </li>
+         <li class="contacto__link"> 
+	   <a href="#0"> 
+	   <img src="img/icons/whatsapp.png" alt="">
+	     (+54) 011-54567453</a>
+	 </li>
+       </ul>
+     </div>
+   </div>
+ </footer>
 </body>
 </html>

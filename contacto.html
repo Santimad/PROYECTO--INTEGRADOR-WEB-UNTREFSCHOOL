@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">                          <title> Untref School </title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display
+=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap
+" rel="stylesheet">                                                                              <link rel="stylesheet" href="css/style.css">                                                   <link rel="stylesheet" media="only screen and (orientation: landscape)" href="css/landscape.css">
+  <link rel="stylesheet" media="only screen and (min-width:768px)" href="css/tablet.css">
+</head>
+<body>
+  <nav class="nav">
+  <ul class=nav__links>
+    <li class="nav__link"> 
+      <a href="index.html" rel="prev" target="_top"> Inicio </a>
+    </li>                                                            
+    <li class="nav__link"> 
+      ¿Quienes somos? 
+    </li>
+    <li class="nav__link"> 
+      ¿Porque elegirnos? 
+    </li>
+    <li class="nav__link"> 
+      Noticias 
+    </li>
+    <li class="nav__link">
+      <a href="contacto.html" target="_parent">Contacto </a>
+    </li>                                                                                        </ul>
+ </nav>
+ <header class="header">
+    <img class="header__img" src="img/escuela.jpg" alt=""/>
+    <h1 class=header__titulo> Untref School </h1>
+  </header>
+  <section class="contacto">
+    <div class="container">
+      <h2 class="contacto__titulo"> Contacto </h2>
+      <form class="form" action="https://formsubmit.co/3dddb88b08ec66f81400cd1ec670ade6"
+	method="POST">
+	<fieldset class="form__fieldset">
+	  <label class="form__label" for="nombre"> Nombre</label>
+	  <input type="text" class="form__input"
+	  placeholder="Ingrese su nombre..." id="nombre" name="nombre" required>
+	  <br>
+
+	  <label for="correo" class="form__label"> Correo electrónico </label>
+	  <input type="correo" class="form__input" name="correo"
+		 placeholder="Ingrese su correo electrónico..." id="correo" required>
+	  <br>
+
+	  <label for="mensaje" class="form__label"> Deje su mensaje a continuación(opcional):
+	  </label>
+	  <textarea class="form__input form__textarea" name="mensaje"
+	    rows="5" cols="33" placeholder="Escriba su mensaje aquí..." id="mensaje"></textarea>
+	  <br>
+	  
+	  <label for="subscripcion" class="checkbox__label">
+	    <input type="checkbox" class="checkbox__input" id="subscripcion">
+	      Deseo recibir las últimas noticias y novedades.</label>
+	  <br>
+	  <button class="form__button" type="submit"> Enviar</button>
+	</fieldset>
+      </form>
+  </section>
+
+  <footer class=pie>
+   <div class="row">                                                                                <div class="col-4">
+       <h2 class="pie__titulo">Redes Sociales</h2>
+	<ul class="rrss__list">                                                                          <li class="rrss__link">
+           <a href="#0">
+           <img class="rrss__img" src="img/icons/twitter.png"
+           alt="Logotipo de twitter: silueta de un pajarito de perfil color azul."/>
+             Twitter</a>
+         </li>
+	 <li class="rrss__link">
+           <a href="#0">
+           <img class="rrss__img" src="img/icons/instagram.png"
+           alt="Logotipo de instagram: camara fotografica de colores.">
+             Instagram</a>
+         </li>
+	 <li class="rrss__link">
+           <a href="#0">
+	     <img class="rrss__img"src="img/icons/linkedin.png"                                             alt="Logotipo de linkedin: cuadrado azul con las letras L e I blancas.">
+	     Linkledin</a>                                                                              </li>
+       </ul>
+     </div>
+     <div class="col-4">                                                                              <h2 class="pie__titulo">Instituto</h2>
+       <div class="pie__mapa">
+         <a href="#0">
+          <img width=156 height=156 src="img/mapa.png" alt="Mapa de google.">
+         </a>
+       </div>
+     </div>
+     <div class="col-4">
+       <h2 class="pie__titulo">Contacto</h2>
+       <ul class="contacto__list">
+         <li class="contacto__link">
+           <h4>Correo electrónico:</h4>
+           <a href="#0"> informaciones@untrefschool.com </a>
+         </li>
+         <li class="contacto__link">
+           <h4>Teléfonos:</h4>
+           <a href="#0">(+54) 011 - 355433245</a>
+         </li>
+         <li class="contacto__link">
+	   <a href="#0">
+	     <img src="img/icons/whatsapp.png" alt="">
+	   (+54) 011-54567453</a>
+	 </li>
+       </ul>
+     </div>
+   </div>
+ </footer>
+</body>
+</html>
