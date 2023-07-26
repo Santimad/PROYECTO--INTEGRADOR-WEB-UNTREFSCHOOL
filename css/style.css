@@ -197,7 +197,8 @@ textarea{
 .noticias{
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  padding-bottom: 5rem;
+  padding-top: .5rem;
+  padding-bottom:3rem;
   }
 .noticias__p{
     font-weight:300;
@@ -221,10 +222,12 @@ textarea{
 }
 .contacto{
   background-color: var(--grey);
+  padding: .5rem 0 2rem 0;
 }
 .contacto__titulo{/* ? */ 
 color: var(--green); 
-padding-top: 2rem;
+padding-top: 1rem;
+margin-bottom:2rem;
 }
 .contacto__list a{
   text-decoration: none;
@@ -239,7 +242,6 @@ padding-top: 2rem;
 }
 .form{
   font-size: 1rem;
-  margin: 2rem 0;
   background-color: var(--green);
 }
 .form__fieldset{
@@ -300,6 +302,8 @@ padding-top: 2rem;
   background-color: var(--blue);
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
+  padding-top: .25rem;
+  padding-bottom: 2rem;
 }
 /* OTROS SELECTORES */
 [class$=--grey]{

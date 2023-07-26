@@ -1,11 +1,15 @@
 .header{
-  height: 25vh;
+  height: 21vh;
+}
+.main{
+  padding-top: 1rem;
 }
 .main__titulo{
   padding-bottom: 1rem;
 }
 .main__titulo--right{
   clear: both;
+  margin-right: 1rem;
 }
 .main__img--left{
   float: left;
@@ -24,6 +28,8 @@
   margin-top: .8rem;
   padding: 2rem .5rem;
   border: solid var(--grey);
+  font-weight: 400;
+  font-size: 1rem;
 }
 .main__p--left{
   padding-right: 20%;
@@ -36,5 +42,16 @@
   width: 256px;
 }
 .form{ width: 60%;}
+.contacto{
+  padding-bottom: 2.25rem;
+}
 .pie{
+  padding-bottom: 2.5rem;
+}
+
+/* ID's */
+#porque_elegirnos{
+  height: 21vh;
+  border: solid red;
+  clear: both;
 }
