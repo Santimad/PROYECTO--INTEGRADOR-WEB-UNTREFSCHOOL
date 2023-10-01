@@ -27,3 +27,5 @@ height: 66.667vh;
   display: inline-flex;
   margin-left: 2.5rem;
 }*/
+/* ID's */
+#quienes_somos, #porque_elegirnos{ height: 100vh; }

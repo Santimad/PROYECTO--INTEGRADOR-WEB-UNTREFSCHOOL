@@ -224,7 +224,7 @@ textarea{
   background-color: var(--grey);
   padding: .5rem 0 2rem 0;
 }
-.contacto__titulo{/* ? */ 
+.contacto__titulo{ 
 color: var(--green); 
 padding-top: 1rem;
 margin-bottom:2rem;
@@ -296,7 +296,10 @@ margin-bottom:2rem;
 }
 /* ID'S */
 #porque_elegirnos{
+  background-color: var(--grey);
+  height: 100vh;
 }
+#quienes_somos{ height: 100vh; }
 #propuesta_educativa{
   overflow: hidden;
   background-color: var(--blue);
